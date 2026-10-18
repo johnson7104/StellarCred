@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-755-add-code-coverage-reporting",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-755-add-code-coverage-reporting": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-755-add-code-coverage-reporting",
+    "origin"
+  ]
+}
