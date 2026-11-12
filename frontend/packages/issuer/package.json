@@ -36,7 +36,7 @@
   ],
   "scripts": {
     "prebuild": "node scripts/sync-circuit.mjs",
-    "build": "node init && tsup src/index.ts --format cjs,esm --dts --clean",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "test": "vitest run",
     "prepublishOnly": "pnpm build"
   },
